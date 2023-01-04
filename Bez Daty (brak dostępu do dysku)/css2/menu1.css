@@ -1,0 +1,51 @@
+body
+        {
+            background-color: white;
+            text-align: center;
+            font-family: 'Comic Sans MS';
+            
+        }
+        h1
+        {
+            text-align: center;
+            color: white;
+            background-color: green;
+            margin: 0px;
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            
+        }   
+        ul li
+        {
+            background-color: turquoise;
+            color:  white;
+            text-align: center;
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+            display: block;
+            width: 200px;
+        }
+        ul li :hover
+        {
+            background-color:red ;
+            color: white;
+        }
+        a
+        {
+            color: white;
+            display: block;
+        }
+        footer
+        {
+            background-color: black;
+            color: white;
+            clear: both;
+            position: relative;
+            padding: 10px;
+        }
+        ul
+        {
+            margin-top: 0px;
+        }

@@ -1,0 +1,50 @@
+img
+{
+    margin: 5px;
+    padding: 0px;
+    border: red dotted 5px;
+    opacity: 0.8;
+    width: 150px;
+    height: 100px;
+}
+
+img:hover
+{
+    opacity: 1;
+    width: 155px;
+    height: 105px;
+    border: red dashed 5px;
+}
+
+body
+{
+    color: white;
+    background-image: url(o3.png);
+}
+
+h1
+{
+    text-align: center;
+    font-family: Comic Sans MS;
+}
+
+#naglowek
+{
+    align-items: center;
+    background-color: red;
+    float: top;
+    height: 90px;
+    padding-top: 10px;
+}
+
+#obrazy
+{
+    align-items: center;
+    text-align: center;
+}
+.Rob1{
+text-align: center;
+}
+.Rob2{
+text-align: center;
+}

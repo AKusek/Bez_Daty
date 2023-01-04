@@ -1,0 +1,85 @@
+body{
+    animation: Robert;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+@keyframes Robert{
+    0%{background-color: black;}
+    25%{background-color: red;}
+    50%{background-color: blue;}
+    75%{background-color: green;}
+    100%{background-color: black;}
+}
+@keyframes Robert2{
+    0%{background-color: red;}
+    50%{background-color: blue;}
+    80%{background-color: green;}
+    100%{background-color: red;}
+}
+.menu{
+    margin: auto;
+    text-align: center;
+}
+ul
+{
+    display: inline;
+    list-style: none;
+    text-align: center;
+}
+li
+        {
+            float:left;
+            border-left: red;
+            width: 64px;
+            height: 64px;
+            background-color: alpha;
+            color:  white;
+            text-align: center;
+            margin-left: 130px;
+
+        }
+        ul li :hover
+        {
+            background-color:yellow ;
+            color: white;
+        }
+    
+#r1{
+    width: 64px;
+    height: 64px;
+    background: url(Image.png) 0 0;
+}
+#r2{
+    width: 64px;
+    height: 64px;
+    background: url(Image.png) -64px 0;
+}
+
+#r3{
+    width: 64px;
+    height: 64px;
+    background: url(Image.png) -128px 0;
+}
+
+#r4{
+    width: 64px;
+    height: 64px;
+    background: url(Image.png) -192px 0;
+}
+
+#r5{
+    width: 64px;
+    height: 64px;
+    background: url(Image.png) -256px 0;
+}
+
+#r6{
+    width: 64px;
+    height: 64px;
+    background: url(Image.png) -320px 0;
+}
+
